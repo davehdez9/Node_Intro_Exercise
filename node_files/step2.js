@@ -1,8 +1,6 @@
 const fs = require('fs')
 const process = require('process')
 const axios = require('axios')
-const { url } = require('inspector')
-
 
 function cat(path){
     fs.readFile(path, 'utf8', (err, data) => {

@@ -53,3 +53,4 @@ if (path.slice(0,4) === 'http'){
 } else {
     cat(path, out)
 }
+

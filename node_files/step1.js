@@ -12,5 +12,5 @@ function cat(path){
     })
 }
 
-// Why the number 2?
+
 cat(process.argv[2])
